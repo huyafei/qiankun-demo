@@ -1,0 +1,26 @@
+{
+  "name": "qiankun-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "install:history": "cd vue2-child-history && npm install",
+    "install:hash": "cd vue2-child-hash && npm install",
+    "install:main": "cd vue2-main && npm install",
+    "install-all": "npm-run-all install:*",
+    "serve:history": "cd vue2-child-history && npm run serve",
+    "serve:hash": "cd vue2-child-hash && npm run serve",
+    "serve:main": "cd vue2-main && npm run serve",
+    "serve-all": "npm-run-all --parallel serve:*",
+    "build:history": "cd vue2-child-history && npm run build",
+    "build:hash": "cd vue2-child-hash && npm run build",
+    "build:main": "cd vue2-main && npm run build",
+    "build-all": "npm-run-all --parallel build:*",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "npm-run-all": "^4.1.5"
+  }
+}
